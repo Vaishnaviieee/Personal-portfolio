@@ -1,0 +1,314 @@
+body {
+    margin: -5px 26px 78px -13px;
+    padding: 20px 20px;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+
+ header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+.logo img {
+    width: 173px; 
+    height: 41px; 
+    padding: 20px 57px 642px 31px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+   padding : 10px 60px 631px 758px;
+    height: 30px;
+    width: 10px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.home{
+    position: relative;
+    width: 2%;
+    height: 59vh;
+    display: flex;
+    align-items: center;
+    padding: 165px 87px 16px 399px;
+}
+
+.content{
+    max-width: 500px;
+    color: black;
+    font-weight: bolder;
+}
+.content h1{
+    font-size: 3em;
+}
+.content h1 span{
+    color: purple;
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+.header-image {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+.header-image img {
+    max-width: 104%; /* Adjust as needed */
+    height: 74vh;
+    margin-right: 368px 70px 67px  43px; 
+    padding: 95px 7px -63px 33px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.buttons button {
+    margin-right: 25px;
+    padding: 20px 49px 17px 45px;
+    background-color:pink;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+.buttons button:hover {
+    background-color: purple;
+    color: white;
+}
+
+.about-me {
+    margin-top: 213px;
+    padding:296px 433px 29px 65px ;
+}
+
+.about-me h2 {
+    font-size: 41px;
+    font-weight: bold;
+    align-items: center;
+    padding: 22px 71px 455px -1px;
+}
+
+.about-me p {
+    font-size: 16px;
+}
+.skills{
+    padding: 79px 20px 20px 20px;
+}
+.skills-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: -1rem;
+    margin-top: -1rem;
+}
+
+.bars-box{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+.bar-box h2,span{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.light-bar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.6rem;
+    background: hsla(260, 100%, 44%, 0.4);
+    border-radius: 0.5rem;
+}
+.percent-bar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0.6rem;
+    background: purple;
+    border-radius: 0.6rem;
+}
+.html-bar{
+    width: 75%;
+}
+.css-bar{
+    width: 70%
+}
+.mysql-bar{
+    width: 85%
+}
+.cpp-bar{
+    width: 90%
+}
+.c-bar{
+    width: 90%
+}
+.java-bar{
+    width: 80%;
+}
+.python-bar{
+    width: 80%;
+}
+
+.projects {
+    margin-top: 100px;
+}
+
+.projects h2 {
+    font-size: 47px;
+    font-weight: bold;
+}
+
+.project-item {
+    margin-bottom: 20px;
+}
+
+.project-item h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: purple;
+}
+
+.project-item p {
+    font-size: 18px;
+}
+
+.contact-left{
+    flex-basis: 35%;
+    padding:  67px 25px 0px;
+    font-size: 30px;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left p i{
+     color: purple;
+     margin-right: 15px;
+     font-size: 15px;
+}
+.contact-item{
+    color: purple;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 15px;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.contact-right {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.contact-right h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.contact-item i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+.contact-item p {
+    font-size: 16px;
+}
+
+.contact {
+    background-color:white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    color: purple;
+}
+
+input, textarea {
+    padding: 11px;
+    margin-bottom: 13px;
+    width: 104%;
+    box-sizing: border-box;
+    color: purple;
+}
+
+input[type="submit"] {
+    background-color: pink;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color:pink;
+}
+
+.contact p {
+    font-size: 17px;
+    margin-bottom: 27px;
+}
+
+footer {
+    background-color: pink;
+    color: black;
+    text-align: center;
+    padding: 32px 455px 40px 22px;
+    position: static;
+    bottom: 0;
+    width: 115%;
+    margin: -14px 31px 118px -65px;
+}
